@@ -13,7 +13,7 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 
-
+/*
 public class MainApp extends Application {
 
     private Stage primaryStage;
@@ -24,7 +24,8 @@ private ObservableList<Person> personData = FXCollections.observableArrayList();
 /**
  * Constructor
  */
-public MainApp() {
+
+public MainApp(){
     // Add some sample data
 }
 
@@ -47,6 +48,7 @@ public MainApp() {
     /**
      * Shows the person overview inside the root layout.
      */
+    
     public void showPersonOverview() {
         try {
             // Load person overview.
@@ -74,7 +76,6 @@ public MainApp() {
     public Stage getPrimaryStage() {
         return primaryStage;
     }
-
 
 
     public static void main(String[] args) {

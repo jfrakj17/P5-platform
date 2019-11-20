@@ -12,22 +12,22 @@
             <Font size="36.0" />
          </font>
       </Text>
-      <Button layoutX="87.0" layoutY="101.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="99.0" prefWidth="180.0" style="-fx-background-color: khaki; -fx-border-color: black;" text="Anatomi af underlivet">
+      <Button fx:id="anatomyButton" layoutX="87.0" layoutY="101.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="99.0" prefWidth="180.0" style="-fx-background-color: khaki; -fx-border-color: black;" text="Anatomi af underlivet">
          <font>
             <Font size="15.0" />
          </font>
       </Button>
-      <Button layoutX="312.0" layoutY="101.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="99.0" prefWidth="180.0" style="-fx-background-color: pink; -fx-border-color: black;" text="Behandlingsforløb">
+      <Button fx:id="treatmentButton" layoutX="312.0" layoutY="101.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="99.0" prefWidth="180.0" style="-fx-background-color: pink; -fx-border-color: black;" text="Behandlingsforløb">
          <font>
             <Font size="15.0" />
          </font>
       </Button>
-      <Button layoutX="312.0" layoutY="249.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="99.0" prefWidth="180.0" style="-fx-background-color: LIGHTGREEN; -fx-border-color: black;" text="Ofte stillede spørgsmål ">
+      <Button fx:id="faqButton" layoutX="312.0" layoutY="249.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="99.0" prefWidth="180.0" style="-fx-background-color: LIGHTGREEN; -fx-border-color: black;" text="Ofte stillede spørgsmål ">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="87.0" layoutY="249.0" mnemonicParsing="false" prefHeight="99.0" prefWidth="180.0" style="-fx-background-color: LIGHTSKYBLUE; -fx-border-color: black;" text="Spørgeskema">
+      <Button fx:id="askButton" layoutX="87.0" layoutY="249.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="99.0" prefWidth="180.0" style="-fx-background-color: LIGHTSKYBLUE; -fx-border-color: black;" text="Spørgeskema">
          <font>
             <Font size="14.0" />
          </font>

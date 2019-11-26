@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.aau.address.view.MenuController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Forside" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="anatomyButton" layoutX="87.0" layoutY="101.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="99.0" prefWidth="180.0" style="-fx-background-color: khaki; -fx-border-color: black;" text="Anatomi af underlivet">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="treatmentButton" layoutX="312.0" layoutY="101.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="99.0" prefWidth="180.0" style="-fx-background-color: pink; -fx-border-color: black;" text="Behandlingsforløb">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="faqButton" layoutX="312.0" layoutY="249.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="99.0" prefWidth="180.0" style="-fx-background-color: LIGHTGREEN; -fx-border-color: black;" text="Ofte stillede spørgsmål ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="askButton" layoutX="87.0" layoutY="249.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="99.0" prefWidth="180.0" style="-fx-background-color: LIGHTSKYBLUE; -fx-border-color: black;" text="Spørgeskema">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
